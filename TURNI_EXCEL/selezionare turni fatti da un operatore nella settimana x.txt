@@ -1,0 +1,1 @@
+select turnazione_operatore.matricola, cognome, nome, week, data_lun, lun, mar, mer, gio, ven, sab, dom from turnazione_operatore join anagrafica on anagrafica.matricola=turnazione_operatore.matricola where data_lun >= 2016-07-04  order by cognome
